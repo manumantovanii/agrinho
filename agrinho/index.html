@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Campo à Cidade - Colhendo Oportunidades</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif; /* Aplicando a fonte Roboto */
+            overflow: hidden; /* Impede o scroll se o banner ocupar toda a tela */
+        }
+
+        .banner {
+            display: flex;
+            flex-direction: column; /* Muda o layout para coluna */
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Ocupa toda a altura da tela */
+            width: 100vw;  /* Ocupa toda a largura da tela */
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            box-sizing: border-box; /* Inclui padding e border na largura e altura */
+            text-align: center;
+        }
+
+        .banner-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        .banner-content {
+            max-width: 800px;
+        }
+
+        .banner-title {
+            font-size: 3em;
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner-text {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .banner-button {
+            display: inline-block;
+            background-color: #fff;
+            color: #4CAF50;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .banner-button:hover {
+            background-color: #45a049;
+            color: #fff;
+        }
+
+        @media (min-width: 768px) {
+            .banner {
+                flex-direction: row;
+            }
+
+            .banner-image {
+                width: 50%;
+                max-width: none;
+                margin: 0 20px;
+            }
+
+            .banner-content {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img src="campo.avif" alt="Imagem do Campo" class="banner-image">
+        <div class="banner-content">
+            <h1 class="banner-title">Do Campo à Cidade</h1>
+            <p class="banner-text">
+                A interrelação entre o campo e a cidade é um fenômeno intrinsecamente ligado ao desenvolvimento tecnológico, que tem moldado drasticamente tanto a agricultura quanto os centros urbanos. Nas últimas décadas, a convergência de avanços tecnológicos têm transformado a maneira como o campo e a cidade se relacionam, criando novas oportunidades e desafios para ambos os ambientes.
+            </p>
+            <p class="banner-text">
+                A tecnologia tem permitido uma agricultura mais eficiente e sustentável, com o uso de sistemas de monitoramento remoto, drones, inteligência artificial e biotecnologia, que aumentam a produtividade e reduzem os impactos ambientais. Ao mesmo tempo, as cidades têm se beneficiado dessas inovações, recebendo alimentos de alta qualidade e diversidade, além de soluções tecnológicas para questões como segurança alimentar, gestão de resíduos e sustentabilidade urbana.
+            </p>
+            <p class="banner-text">
+                Assim, a interação entre o campo e a cidade, impulsionada pela tecnologia, representa não apenas uma integração de sistemas, mas também uma oportunidade para promover o desenvolvimento econômico, social e ambiental de forma sustentável.
+            </p>
+            <a href="#" class="banner-button">CAMPO E CIDADE</a>
+        </div>
+        <img src="cidade.jpg" alt="Imagem da Cidade" class="banner-image">
+    </div>
+</body>
+</html>
